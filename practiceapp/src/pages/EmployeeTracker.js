@@ -1,14 +1,17 @@
-import React from "react";
+import React, { Component } from "react";
 import Card from "../components/Card";
+import API from "../utils/API";
 
-function EmployeeTracker() {
+class EmployeeTracker extends Component{
  
-  return (
-    <div>
-    <h1>Employee Database</h1>
-     <Card/>
-    </div>
-  );
+ 
+ render(){
+   return (
+    <>
+    <h1>Hello</h1>
+    </>
+  )
+ } 
 }
 
 export default EmployeeTracker;
